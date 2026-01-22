@@ -1,0 +1,134 @@
+{
+	"name": "Sovereign Machine crimson pack",
+"colors": {
+    // --- BARRA DE TÍTULO (TOPO) ---
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#000000",
+    "titleBar.inactiveForeground": "#555555",
+    "titleBar.border": "#dc143c33",
+
+    // --- BARRA DE ATIVIDADE (ÍCONES DA ESQUERDA) ---
+    "activityBar.background": "#050505",
+    "activityBar.foreground": "#dc143c",
+    "activityBar.inactiveForeground": "#444444",
+    "activityBar.border": "#dc143c33",
+    "activityBarBadge.background": "#dc143c",
+    "activityBarBadge.foreground": "#ffffff",
+
+    // --- BARRA LATERAL (EXPLORADOR DE ARQUIVOS) ---
+    "sideBar.background": "#080808",
+    "sideBar.foreground": "#cccccc",
+    "sideBar.border": "#dc143c33",
+    "sideBarTitle.foreground": "#dc143c",
+    "sideBarSectionHeader.background": "#101010",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "sideBarSectionHeader.border": "#dc143c22",
+
+    // --- EDITOR (ONDE O CÓDIGO ACONTECE) ---
+    "editor.background": "#0a0a0a",
+    "editor.foreground": "#ffffff",
+    "editorLineNumber.foreground": "#333333",
+    "editorLineNumber.activeForeground": "#dc143c",
+    "editorCursor.foreground": "#dc143c",
+    "editor.lineHighlightBackground": "#1a0508",
+    "editor.selectionBackground": "#dc143c44",
+    "editor.inactiveSelectionBackground": "#dc143c22",
+    "editorWhitespace.foreground": "#222222",
+    //"editorIndentGuide.background": "#151515",
+    //"editorIndentGuide.activeBackground": "#dc143c55",
+
+    // --- ABAS (TABS) ---
+    "tab.activeBackground": "#0a0a0a",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#050505",
+    "tab.inactiveForeground": "#555555",
+    "tab.border": "#000000",
+    "tab.activeBorder": "#dc143c", // Linha vermelha na aba ativa
+
+    // --- TERMINAL ---
+    "terminal.background": "#050505",
+    "terminal.foreground": "#ffffff",
+    "terminalCursor.foreground": "#dc143c",
+    "terminal.ansiRed": "#dc143c",
+
+    // --- STATUS BAR (RODAPÉ) ---
+    "statusBar.background": "#555555",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.noFolderBackground": "#1a1a1a",
+    "statusBarItem.hoverBackground": "#b01030",
+
+    // --- LISTAS E MENUS (INPUTS, DROPDOWNS) ---
+    "list.activeSelectionBackground": "#dc143c22",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#151515",
+    "list.focusBackground": "#dc143c33",
+    "input.background": "#101010",
+    "input.border": "#dc143c44",
+    "input.foreground": "#ffffff",
+
+    // --- NOTIFICAÇÕES E WIDGETS ---
+    "notificationCenterHeader.background": "#101010",
+    "notifications.background": "#0a0a0a",
+    "notifications.border": "#dc143c44",
+    "editorWidget.background": "#0f0f0f",
+    "editorWidget.border": "#dc143c"
+},
+	"tokenColors": [
+		{
+			"name": "Ruído Visual (Comentários, Operadores, Pontuação)",
+			"scope": [
+				"comment",
+				"punctuation",
+				"keyword.operator",
+				"meta.brace",
+                "string",
+				"storage.type.function.arrow",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#505050" // Um cinza mais escuro para sumir no fundo
+			}
+		},
+		{
+			"name": "Estrutura e Ação (Crimson Red)",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier",
+				"entity.name.function",
+				"support.function",
+				"keyword.control.directive"
+			],
+			"settings": {
+				"foreground": "#dc143c",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Dados e Identificadores (Branco)",
+			"scope": [
+				"variable",
+				"variable.parameter",
+				"variable.other",
+				"constant",
+				"entity.name.type",
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Destaque de pré-processador (C/C++)",
+			"scope": [
+				"entity.name.tag.preprocessor",
+				"punctuation.definition.directive"
+			],
+			"settings": {
+				"foreground": "#dc143c"
+			}
+		}
+	]
+}
