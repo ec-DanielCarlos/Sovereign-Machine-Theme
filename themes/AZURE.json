@@ -2,29 +2,28 @@
     "name": "Sovereign Machine Azure Pack",
     "type": "dark",
     "colors": {
-        // --- FUNDAÇÃO (Onyx & Deep Blue) ---
+        // --- FUNDAÇÃO (Onyx & Oceanic Deep) ---
         "editor.background": "#0a0a0a",
         "editor.foreground": "#ffffff",
         "sideBar.background": "#080808",
-        "titleBar.activeBackground": "#002b54", // Detalhe em Deep Blue
-        "statusBar.background": "#002b54",      // Detalhe em Deep Blue
+        "titleBar.activeBackground": "#074f7f", 
+        "statusBar.background": "#074f7f",      
         "statusBar.foreground": "#ffffff",
 
-        // --- ENERGIA (Electric Blue #00e5ff) ---
-        "activityBar.foreground": "#00e5ff",
-        "editorCursor.foreground": "#00e5ff",
-        "editorLineNumber.activeForeground": "#00e5ff",
-        "progressBar.background": "#00e5ff",
-        "textLink.foreground": "#00e5ff",
+        // --- ENERGIA (Azure Flow #12d3f0) ---
+        "activityBar.foreground": "#12d3f0",
+        "editorCursor.foreground": "#12d3f0",
+        "editorLineNumber.activeForeground": "#12d3f0",
+        "progressBar.background": "#12d3f0",
+        "textLink.foreground": "#12d3f0",
 
-        // --- SELEÇÃO (Electric Blue Transparente) ---
-        // Ajustado para manter a leitura que você pediu
-        "editor.selectionBackground": "#00e5ff44",
-        "editor.wordHighlightBackground": "#00e5ff22",
-        "editor.wordHighlightStrongBackground": "#00e5ff44",
-        "editor.lineHighlightBackground": "#002b5433", // Brilho sutil da linha em Deep Blue
+        // --- SELEÇÃO E FOCO (Transparência Calibrada) ---
+        "editor.selectionBackground": "#12d3f033", 
+        "editor.wordHighlightBackground": "#12d3f022",
+        "editor.wordHighlightStrongBackground": "#12d3f044",
+        "editor.lineHighlightBackground": "#074f7f15", 
 
-        // --- RUÍDO (Cinza Profundo) ---
+        // --- RUÍDO VISUAL (Cinza Antracite) ---
         "editorLineNumber.foreground": "#333333",
         "sideBarTitle.foreground": "#757575"
     },
@@ -35,7 +34,7 @@
             "settings": { "foreground": "#757575" }
         },
         {
-            "name": "Estrutura e Ação (Electric Blue)",
+            "name": "Estrutura e Ação (Azure Flow)",
             "scope": [
                 "keyword",
                 "storage.type",
@@ -45,7 +44,7 @@
                 "keyword.control.directive"
             ],
             "settings": {
-                "foreground": "#00e5ff",
+                "foreground": "#12d3f0",
                 "fontStyle": "bold"
             }
         },
