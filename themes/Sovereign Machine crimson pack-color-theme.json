@@ -31,8 +31,10 @@
     "editorLineNumber.foreground": "#333333",
     "editorLineNumber.activeForeground": "#dc143c",
     "editorCursor.foreground": "#dc143c",
-    "editor.lineHighlightBackground": "#1a0508",
-    "editor.selectionBackground": "#dc143c44",
+    "editor.selectionBackground": "#dc143c66",          // Cor de quando você seleciona com o mouse
+    "editor.selectionHighlightBackground": "#dc143c33", // Outras palavras iguais à que você selecionou
+    "editor.wordHighlightBackground": "#dc143c44",      // A palavra onde o cursor está parado (clique)
+    "editor.wordHighlightStrongBackground": "#dc143c66", // Palavra clicada que tem escrita/modificaçãos em outros lugares
     "editor.inactiveSelectionBackground": "#dc143c22",
     "editorWhitespace.foreground": "#222222",
     //"editorIndentGuide.background": "#151515",

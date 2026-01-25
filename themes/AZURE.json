@@ -1,0 +1,58 @@
+{
+    "name": "Sovereign Machine Azure Pack",
+    "type": "dark",
+    "colors": {
+        // --- FUNDAÇÃO (Onyx & Deep Blue) ---
+        "editor.background": "#0a0a0a",
+        "editor.foreground": "#ffffff",
+        "sideBar.background": "#080808",
+        "titleBar.activeBackground": "#002b54", // Detalhe em Deep Blue
+        "statusBar.background": "#002b54",      // Detalhe em Deep Blue
+        "statusBar.foreground": "#ffffff",
+
+        // --- ENERGIA (Electric Blue #00e5ff) ---
+        "activityBar.foreground": "#00e5ff",
+        "editorCursor.foreground": "#00e5ff",
+        "editorLineNumber.activeForeground": "#00e5ff",
+        "progressBar.background": "#00e5ff",
+        "textLink.foreground": "#00e5ff",
+
+        // --- SELEÇÃO (Electric Blue Transparente) ---
+        // Ajustado para manter a leitura que você pediu
+        "editor.selectionBackground": "#00e5ff44",
+        "editor.wordHighlightBackground": "#00e5ff22",
+        "editor.wordHighlightStrongBackground": "#00e5ff44",
+        "editor.lineHighlightBackground": "#002b5433", // Brilho sutil da linha em Deep Blue
+
+        // --- RUÍDO (Cinza Profundo) ---
+        "editorLineNumber.foreground": "#333333",
+        "sideBarTitle.foreground": "#757575"
+    },
+    "tokenColors": [
+        {
+            "name": "Ruído Visual",
+            "scope": ["comment", "punctuation", "keyword.operator", "meta.brace"],
+            "settings": { "foreground": "#757575" }
+        },
+        {
+            "name": "Estrutura e Ação (Electric Blue)",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier",
+                "entity.name.function",
+                "support.function",
+                "keyword.control.directive"
+            ],
+            "settings": {
+                "foreground": "#00e5ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Dados e Identificadores (Branco)",
+            "scope": ["variable", "constant", "string", "entity.name.type"],
+            "settings": { "foreground": "#ffffff" }
+        }
+    ]
+}
