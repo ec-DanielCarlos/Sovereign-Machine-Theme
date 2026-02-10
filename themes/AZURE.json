@@ -30,7 +30,7 @@
     "tokenColors": [
         {
             "name": "Ruído Visual",
-            "scope": ["comment", "punctuation", "keyword.operator", "meta.brace"],
+            "scope": ["comment", "string", "punctuation", "keyword.operator", "meta.brace"],
             "settings": { "foreground": "#757575" }
         },
         {
@@ -50,8 +50,9 @@
         },
         {
             "name": "Dados e Identificadores (Branco)",
-            "scope": ["variable", "constant", "string", "entity.name.type"],
+            "scope": ["variable", "constant", "entity.name.type"],
             "settings": { "foreground": "#ffffff" }
         }
     ]
+    
 }
