@@ -1,37 +1,51 @@
 {
     "name": "Sovereign Machine Azure Pack",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
-        // --- FUNDAÇÃO (Onyx & Oceanic Deep) ---
         "editor.background": "#0a0a0a",
         "editor.foreground": "#ffffff",
         "sideBar.background": "#080808",
-        "titleBar.activeBackground": "#074f7f", 
-        "statusBar.background": "#074f7f",      
+        "titleBar.activeBackground": "#074f7f",
+        "statusBar.background": "#074f7f",
         "statusBar.foreground": "#ffffff",
-
-        // --- ENERGIA (Azure Flow #12d3f0) ---
         "activityBar.foreground": "#12d3f0",
         "editorCursor.foreground": "#12d3f0",
         "editorLineNumber.activeForeground": "#12d3f0",
         "progressBar.background": "#12d3f0",
         "textLink.foreground": "#12d3f0",
-
-        // --- SELEÇÃO E FOCO (Transparência Calibrada) ---
-        "editor.selectionBackground": "#12d3f033", 
+        "editor.selectionBackground": "#12d3f033",
         "editor.wordHighlightBackground": "#12d3f022",
         "editor.wordHighlightStrongBackground": "#12d3f044",
-        "editor.lineHighlightBackground": "#074f7f15", 
-
-        // --- RUÍDO VISUAL (Cinza Antracite) ---
+        "editor.lineHighlightBackground": "#074f7f15",
         "editorLineNumber.foreground": "#333333",
         "sideBarTitle.foreground": "#757575"
+    },
+    "semanticTokenColors": {
+        "variable": "#ffffff",
+        "variable.readonly": "#ffffff",
+        "variable.defaultLibrary": "#12d3f0",
+        "property": "#ffffff",
+        "parameter": "#ffffff",
+        "function": "#12d3f0",
+        "member": "#ffffff",
+        "type": "#ffffff",
+        "class": "#ffffff"
     },
     "tokenColors": [
         {
             "name": "Ruído Visual",
-            "scope": ["comment", "string", "punctuation", "keyword.operator", "meta.brace"],
-            "settings": { "foreground": "#757575" }
+            "scope": [
+                "comment",
+                "string",
+                "punctuation",
+                "keyword.operator",
+                "meta.brace",
+                "meta.delimiter"
+            ],
+            "settings": {
+                "foreground": "#757575"
+            }
         },
         {
             "name": "Estrutura e Ação (Azure Flow)",
@@ -49,10 +63,19 @@
             }
         },
         {
-            "name": "Dados e Identificadores (Branco)",
-            "scope": ["variable", "constant", "entity.name.type"],
-            "settings": { "foreground": "#ffffff" }
+            "name": "Dados e Identificadores (Branco Absoluto)",
+            "scope": [
+                "variable",
+                "variable.parameter",
+                "variable.other",
+                "variable.language",
+                "constant",
+                "entity.name.type",
+                "meta.function-call.arguments"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
         }
     ]
-    
 }
