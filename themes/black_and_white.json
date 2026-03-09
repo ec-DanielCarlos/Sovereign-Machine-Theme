@@ -1,0 +1,84 @@
+{
+    "name": "Sovereign Machine: Arctic Protocol",
+    "type": "light",
+    "semanticHighlighting": true,
+    "colors": {
+        // --- LABORATÓRIO (Branco Papel) ---
+        "editor.background": "#ffffff",
+        "editor.foreground": "#1a1a1a",
+        "sideBar.background": "#f3f3f3",
+        "activityBar.background": "#ffffff",
+        "titleBar.activeBackground": "#ffffff",
+        "titleBar.activeForeground": "#1a1a1a",
+        "statusBar.background": "#ffffff",
+        "statusBar.border": "#e0e0e0",
+
+        // --- A MARCA (Apenas Detalhes) ---
+        "activityBar.foreground": "#1a1a1a", 
+        "statusBar.foreground": "#1a1a1a",
+        "editorCursor.foreground": "#0088aa", 
+        "textLink.foreground": "#0088aa",
+
+        // --- SELEÇÃO (Vidro Fumê) ---
+        "editor.selectionBackground": "#00000020", 
+        "editor.lineHighlightBackground": "#00000005",
+        "editorLineNumber.foreground": "#cccccc",
+        "editorLineNumber.activeForeground": "#000000",
+
+        // --- ESQUELETO AZUL (Bracket Pair Colorization) ---
+        // Aqui definimos que TODOS os níveis de parênteses são Azuis
+        "editorBracketHighlight.foreground1": "#0088aa",
+        "editorBracketHighlight.foreground3": "#0088aa",
+        "editorBracketHighlight.foreground2": "#0088aa",
+        "editorBracketHighlight.foreground4": "#0088aa",
+        "editorBracketHighlight.foreground5": "#0088aa",
+        "editorBracketHighlight.foreground6": "#0088aa",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+    },
+    "tokenColors": [
+        {
+            "name": "Comentários (Cinza Claro)",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment",
+                "string"
+            ],
+            "settings": {
+                "foreground": "#999999",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "TUDO PRETO (Lógica, Variáveis, Keywords)",
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "keyword.operator",
+                "storage",
+                "variable",
+                "entity",
+                "constant",
+                "support",
+                "punctuation" 
+            ],
+            "settings": {
+                "foreground": "#1a1a1a",
+                "fontStyle": "" 
+            }
+        },
+        {
+            "name": "ESQUELETO AZUL (Reforço)",
+            "scope": [
+                "meta.brace",
+                "punctuation.definition.parameters",
+                "punctuation.section",
+                "punctuation.parenthesis",
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                //"foreground": "#0088aa",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}
