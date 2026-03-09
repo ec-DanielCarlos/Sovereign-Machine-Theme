@@ -1,0 +1,85 @@
+{
+    "name": "Sovereign Machine: Arctic Protocol",
+    "type": "light",
+    "semanticHighlighting": true,
+    "colors": {
+        // --- LABORATÓRIO (Branco Papel) ---
+        "editor.background": "#ffffff",
+        "editor.foreground": "#1a1a1a",
+        "sideBar.background": "#f3f3f3",
+        "activityBar.background": "#ffffff",
+        "titleBar.activeBackground": "#ffffff",
+        "titleBar.activeForeground": "#1a1a1a",
+        "statusBar.background": "#ffffff",
+        "statusBar.border": "#e0e0e0",
+
+        // --- A MARCA (Azul Técnico & Neon) ---
+        "activityBar.foreground": "#074f7f",
+        "statusBar.foreground": "#074f7f",
+        "editorCursor.foreground": "#12d3f0",
+        "textLink.foreground": "#0088aa",
+
+        // --- INVERSÃO TÁTICA (O Efeito que você pediu) ---
+        "editor.selectionBackground": "#00000030", 
+        "editor.selectionForeground": "#ffffff", 
+        
+        // Detalhes extras
+        "editorLineNumber.foreground": "#bbbbbb",
+        "editorLineNumber.activeForeground": "#000000",
+        "editor.lineHighlightBackground": "#0000000A",
+
+        // --- MATA O ARCO-ÍRIS (Bracket Pair Colorization -> Preto Técnico) ---
+        "editorBracketHighlight.foreground1": "#1a1a1a",
+        "editorBracketHighlight.foreground2": "#1a1a1a",
+        "editorBracketHighlight.foreground3": "#1a1a1a",
+        "editorBracketHighlight.foreground4": "#1a1a1a",
+        "editorBracketHighlight.foreground5": "#1a1a1a",
+        "editorBracketHighlight.foreground6": "#1a1a1a",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+    },
+    "tokenColors": [
+        {
+            "name": "Comentários (Grafite Suave)",
+            "scope": [
+                "comment",
+                "string",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#909090",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Estrutura, Pontuação e Dados (Preto Técnico)",
+            "scope": [
+                "keyword.operator",
+                "punctuation",
+                "meta.brace",
+                "meta.delimiter",
+                "variable",
+                "constant",
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#1a1a1a"
+            }
+        },
+        {
+            "name": "Comandos & Fluxo (Azul Engenharia)",
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "storage.type",
+                "storage.modifier",
+                "entity.name.function",
+                "support.function",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#0088aa",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}
