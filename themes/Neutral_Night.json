@@ -1,0 +1,98 @@
+{
+    "name": "Sovereign Machine: Neutral Night",
+    "type": "dark",
+    "semanticHighlighting": true,
+    "colors": {
+        "editor.background": "#121212",
+        "editor.foreground": "#f2f2f2",
+        "sideBar.background": "#121212",
+        "sideBar.foreground": "#f2f2f2",
+        "sideBarTitle.foreground": "#f2f2f2",
+        "activityBar.background": "#121212",
+        "activityBar.foreground": "#f2f2f2",
+        "activityBar.inactiveForeground": "#8f8f8f",
+        "titleBar.activeBackground": "#121212",
+        "titleBar.activeForeground": "#f2f2f2",
+        "statusBar.background": "#121212",
+        "statusBar.foreground": "#f2f2f2",
+        "tab.activeBackground": "#121212",
+        "tab.activeForeground": "#f2f2f2",
+        "tab.inactiveBackground": "#121212",
+        "tab.inactiveForeground": "#8f8f8f",
+        "editorCursor.foreground": "#f2f2f2",
+        "editorLineNumber.foreground": "#8f8f8f",
+        "editorLineNumber.activeForeground": "#f2f2f2",
+        "editor.selectionBackground": "#8f8f8f33",
+        "editor.selectionHighlightBackground": "#8f8f8f22",
+        "editor.wordHighlightBackground": "#8f8f8f22",
+        "editor.wordHighlightStrongBackground": "#8f8f8f33",
+        "editor.lineHighlightBackground": "#8f8f8f14",
+        "list.activeSelectionBackground": "#8f8f8f22",
+        "list.activeSelectionForeground": "#f2f2f2",
+        "list.hoverBackground": "#8f8f8f14",
+        "input.background": "#121212",
+        "input.foreground": "#f2f2f2",
+        "input.border": "#8f8f8f",
+        "dropdown.background": "#121212",
+        "dropdown.foreground": "#f2f2f2",
+        "dropdown.border": "#8f8f8f",
+        "panel.background": "#121212",
+        "panel.border": "#8f8f8f33",
+        "terminal.background": "#121212",
+        "terminal.foreground": "#f2f2f2"
+    },
+    "semanticTokenColors": {
+        "variable": "#f2f2f2",
+        "property": "#f2f2f2",
+        "parameter": "#f2f2f2",
+        "function": "#f2f2f2",
+        "method": "#f2f2f2",
+        "class": "#f2f2f2",
+        "type": "#f2f2f2",
+        "enumMember": "#f2f2f2",
+        "string": "#8f8f8f",
+        "comment": "#8f8f8f"
+    },
+    "tokenColors": [
+        {
+            "name": "Texto neutro",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment",
+                "string",
+                "constant.character.escape",
+                "keyword.operator",
+                "punctuation",
+                "meta.brace",
+                "meta.delimiter"
+            ],
+            "settings": {
+                "foreground": "#8f8f8f"
+            }
+        },
+        {
+            "name": "Texto principal",
+            "scope": [
+                "keyword",
+                "storage",
+                "storage.type",
+                "storage.modifier",
+                "entity.name.function",
+                "support.function",
+                "variable",
+                "variable.parameter",
+                "variable.other",
+                "variable.language",
+                "constant",
+                "entity.name.type",
+                "support.type",
+                "support.class",
+                "entity.name.class",
+                "entity.name.tag"
+            ],
+            "settings": {
+                "foreground": "#f2f2f2"
+            }
+        }
+    ]
+}

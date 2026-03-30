@@ -19,7 +19,14 @@
         "editor.wordHighlightStrongBackground": "#12d3f044",
         "editor.lineHighlightBackground": "#074f7f15",
         "editorLineNumber.foreground": "#333333",
-        "sideBarTitle.foreground": "#757575"
+        "sideBarTitle.foreground": "#757575",
+        "editorBracketHighlight.foreground1": "#0088aa",
+        "editorBracketHighlight.foreground2": "#0088aa",
+        "editorBracketHighlight.foreground3": "#0088aa",
+        "editorBracketHighlight.foreground4": "#0088aa",
+        "editorBracketHighlight.foreground5": "#0088aa",
+        "editorBracketHighlight.foreground6": "#0088aa",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
     },
     "semanticTokenColors": {
         "variable": "#ffffff",
@@ -75,6 +82,25 @@
             ],
             "settings": {
                 "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "Aspas, Colchetes e Parenteses",
+            "scope": [
+                "punctuation.definition.string",
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end",
+                "string punctuation.definition.string.begin",
+                "string punctuation.definition.string.end",
+                "meta.brace",
+                "punctuation.section",
+                "punctuation.section.brackets",
+                "punctuation.section.parens",
+                "punctuation.parenthesis",
+                "punctuation.definition.parameters"
+            ],
+            "settings": {
+                "foreground": "#0088aa"
             }
         }
     ]

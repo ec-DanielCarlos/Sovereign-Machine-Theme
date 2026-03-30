@@ -2,7 +2,7 @@
   "name": "sovereign-machine",
   "displayName": "Sovereign Machine",
   "description": "Inspiração no mundo cyberpunk com detalhes minimalistas.",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -30,6 +30,21 @@
         "label": "Sovereign Machine: Black and White Protocol",
         "uiTheme": "vs", 
         "path": "./themes/black_and_white.json"
+      },
+      {
+        "label": "Sovereign Machine: Neutral Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neutral_Night.json"
+      },
+      {
+        "label": "Noir & Blanc — Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Noir_Dark.json"
+      },
+      {
+        "label": "Noir & Blanc — Light",
+        "uiTheme": "vs",
+        "path": "./themes/Noir_Light.json"
       }
     ]
   }
