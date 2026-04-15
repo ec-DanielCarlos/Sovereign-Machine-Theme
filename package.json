@@ -2,7 +2,7 @@
   "name": "sovereign-machine",
   "displayName": "Sovereign Machine",
   "description": "Inspiração no mundo cyberpunk com detalhes minimalistas.",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Sovereign Machine crimson pack",
+        "label": "Crimson pack",
         "uiTheme": "vs-dark",
-        "path": "./themes/Sovereign Machine crimson pack-color-theme.json"
+        "path": "./themes/Crimson_pack.json"
       },
       {
         "label": "Sovereign Machine Azure Pack",
