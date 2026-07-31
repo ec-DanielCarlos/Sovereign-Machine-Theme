@@ -2,7 +2,7 @@
   "name": "sovereign-machine",
   "displayName": "Sovereign Machine",
   "description": "Inspiração no mundo cyberpunk com detalhes minimalistas.",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -20,6 +20,11 @@
         "label": "Sovereign Machine Azure Pack",
         "uiTheme": "vs-dark",
         "path": "./themes/AZURE.json"
+      },
+      {
+        "label": "Sovereign Machine Violet Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Violet_pack.json"
       },
       {
         "label": "Sovereign Machine: Arctic Protocol",
