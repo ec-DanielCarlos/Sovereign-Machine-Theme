@@ -32,6 +32,11 @@
         "path": "./themes/Violet_pack.json"
       },
       {
+        "label": "Sovereign Machine Kaiju Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kaiju_pack.json"
+      },
+      {
         "label": "Sovereign Machine: Arctic Protocol",
         "uiTheme": "vs", 
         "path": "./themes/Arctic.json"
