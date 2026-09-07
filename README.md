@@ -1,5 +1,18 @@
 # sovereign-machine README
 
+## Novos temas
+
+Selecione pelo comando **Preferences: Color Theme** no VS Code:
+
+| Tema | Paleta e estilo |
+| --- | --- |
+| Sovereign Machine Eletric Cobalt Pack | Azure com o azul substituído por `#3858E8`, mantendo os demais ajustes e as opacidades. |
+| Sovereign Machine Kiroshi Holo Pack | Azul-ciano `#52D9EF`, realces `#A3F3FF` e fundos azul-petróleo, inspirado no visor de escaneamento e hacks rápidos de Cyberpunk 2077. |
+
+O Kiroshi Holo usa bordas luminosas e sobreposições com canal alfa nas seleções, buscas e destaques para sugerir um holograma. Os fundos principais e os menus permanecem opacos para preservar a leitura; um tema JSON não adiciona transparência à janela, desfoque, brilho externo ou animações.
+
+A paleta do Kiroshi é uma adaptação visual do [visor de escaneamento](https://interfaceingame.com/screenshots/cyberpunk-2077-scanning/), não uma paleta oficial extraída dos arquivos do jogo. As sobreposições usam os [formatos de cor com alfa do VS Code](https://code.visualstudio.com/api/references/theme-color#color-formats).
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:

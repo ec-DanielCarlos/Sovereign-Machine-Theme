@@ -2,7 +2,7 @@
   "name": "sovereign-machine",
   "displayName": "Sovereign Machine",
   "description": "Inspiração no mundo cyberpunk com detalhes minimalistas.",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -27,14 +27,24 @@
         "path": "./themes/AZURE.json"
       },
       {
+        "label": "Sovereign Machine Eletric Cobalt Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Eletric_Cobalt_Pack.json"
+      },
+      {
+        "label": "Sovereign Machine Kiroshi Holo Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kiroshi_Holo_Pack.json"
+      },
+      {
         "label": "Sovereign Machine Violet Pack",
         "uiTheme": "vs-dark",
         "path": "./themes/Violet_pack.json"
       },
       {
-        "label": "Sovereign Machine Kaiju Pack",
+        "label": "Sovereign Machine Abyssal Reactor Pack",
         "uiTheme": "vs-dark",
-        "path": "./themes/Kaiju_pack.json"
+        "path": "./themes/Abyssal_Reactor_Pack.json"
       },
       {
         "label": "Sovereign Machine: Arctic Protocol",
