@@ -2,7 +2,7 @@
   "name": "sovereign-machine",
   "displayName": "Sovereign Machine",
   "description": "Inspiração no mundo cyberpunk com detalhes minimalistas.",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -20,6 +20,11 @@
         "label": "Sovereign Machine Blood Moon Pack",
         "uiTheme": "vs-dark",
         "path": "./themes/Blood_Moon_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Blood Sun Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blood_Sun_pack.json"
       },
       {
         "label": "Sovereign Machine Azure Pack",
