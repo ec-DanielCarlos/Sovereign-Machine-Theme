@@ -2,7 +2,7 @@
   "name": "sovereign-machine",
   "displayName": "Sovereign Machine",
   "description": "Inspiração no mundo cyberpunk com detalhes minimalistas.",
-  "version": "0.0.20",
+  "version": "0.0.23",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -25,6 +25,41 @@
         "label": "Sovereign Machine Blood Sun Pack",
         "uiTheme": "vs-dark",
         "path": "./themes/Blood_Sun_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Onyx Crimson Pack",
+        "uiTheme": "vs",
+        "path": "./themes/Onyx_Crimson_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Ruby Sun Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ruby_Sun_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Onyx Ruby Pack",
+        "uiTheme": "vs",
+        "path": "./themes/Onyx_Ruby_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Ultraviolet Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ultraviolet_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Kiroshi Violet Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kiroshi_Violet_Pack.json"
+      },
+      {
+        "label": "Sovereign Machine Violet Sun Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Violet_Sun_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Onyx Violet Pack",
+        "uiTheme": "vs",
+        "path": "./themes/Onyx_Violet_pack.json"
       },
       {
         "label": "Sovereign Machine Azure Pack",
