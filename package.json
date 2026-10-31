@@ -2,7 +2,7 @@
   "name": "sovereign-machine",
   "displayName": "Sovereign Machine",
   "description": "Inspiração no mundo cyberpunk com detalhes minimalistas.",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -25,6 +25,16 @@
         "label": "Sovereign Machine Blood Moon Light Pack",
         "uiTheme": "vs",
         "path": "./themes/Blood_Moon_Light_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Blood Ruby Moon Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blood_Ruby_Moon_pack.json"
+      },
+      {
+        "label": "Sovereign Machine Blood Ruby Moon Light Pack",
+        "uiTheme": "vs",
+        "path": "./themes/Blood_Ruby_Moon_Light_pack.json"
       },
       {
         "label": "Sovereign Machine Blood Sun Pack",
@@ -60,6 +70,11 @@
         "label": "Sovereign Machine Kiroshi Violet Pack",
         "uiTheme": "vs-dark",
         "path": "./themes/Kiroshi_Violet_Pack.json"
+      },
+      {
+        "label": "Sovereign Machine Kiroshi Red Pack",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kiroshi_Red_Pack.json"
       },
       {
         "label": "Sovereign Machine Violet Sun Pack",
